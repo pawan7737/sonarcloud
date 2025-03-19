@@ -22,8 +22,8 @@ jobs:
       with:
         projectBaseDir: .
         args: >
-          -Dsonar.organization=insight1
-          -Dsonar.projectKey=insight1
+          -Dsonar.organization=pawan7737
+          -Dsonar.projectKey=sonarcloud
       env:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
